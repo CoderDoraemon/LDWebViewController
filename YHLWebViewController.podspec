@@ -16,7 +16,8 @@ Pod::Spec.new do |s|
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC YHLWebViewController a good webViewKit
+  s.description      = <<-DESC 
+			YHLWebViewController 实现类似微信的 webView 导航效果，包括进度条，左滑返回上个网页或者直接关闭
                        DESC
 
   s.homepage         = "https://github.com/yuhanle/YHLWebViewController"
