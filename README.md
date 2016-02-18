@@ -39,7 +39,7 @@ self.navigationController.navigationBar.barTintColor = barTintColor;
 
 ## Author
 
-sinaWeibo:[煜寒了](http://weibo.com/208484538/home?wvr=5)
+煜寒了：[关注我](http://weibo.com/208484538/home?wvr=5)
 
 ## Result
 
