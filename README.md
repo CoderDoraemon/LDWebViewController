@@ -29,17 +29,17 @@ pod "YHLWebViewController"
 导航栏中出现的 返回 和 关闭 ，均会继承你的 navigationController 中对 navigationBar 的设置，比如：
 
 ```
-    UIColor* tintColor = [UIColor whiteColor];
-    UIColor* barTintColor = [UIColor blueColor];
-    self.navigationController.navigationBar.tintColor = tintColor;
-    self.navigationController.navigationBar.barTintColor = barTintColor;
-    [self.navigationController.navigationBar setTitleTextAttributes:@{                                                                      NSForegroundColorAttributeName:tintColor
-                                                                  }];
+UIColor* tintColor = [UIColor whiteColor];
+UIColor* barTintColor = [UIColor blueColor];
+self.navigationController.navigationBar.tintColor = tintColor;
+self.navigationController.navigationBar.barTintColor = barTintColor;
+[self.navigationController.navigationBar setTitleTextAttributes:@{                                                                  NSForegroundColorAttributeName:tintColor
+                                                                 }];
 ```
 
 ## Author
 
-yuhanle, thinkerdown@gmail.com
+sinaWeibo:[煜寒了](http://weibo.com/208484538/home?wvr=5)
 
 ## Result
 
@@ -51,6 +51,4 @@ YHLWebViewController is available under the MIT license. See the LICENSE file fo
 
 ## Thanks
 
-just reference [RxWebViewController](https://github.com/Roxasora/RxWebViewController) 
-
-and used[NJKWebViewProgress](https://github.com/ninjinkun/NJKWebViewProgress) to make navigation progress, it helps a lot
+just reference [RxWebViewController](https://github.com/Roxasora/RxWebViewController) and used [NJKWebViewProgress](https://github.com/ninjinkun/NJKWebViewProgress) to make navigation progress, it helps a lot
