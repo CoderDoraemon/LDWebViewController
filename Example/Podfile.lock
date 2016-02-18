@@ -1,0 +1,14 @@
+PODS:
+  - YHLWebViewController (0.1.0)
+
+DEPENDENCIES:
+  - YHLWebViewController (from `../`)
+
+EXTERNAL SOURCES:
+  YHLWebViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YHLWebViewController: d7cff90f0622f1670ccd65dd19588c9887dc13db
+
+COCOAPODS: 0.39.0

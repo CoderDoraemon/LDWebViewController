@@ -1,0 +1,6 @@
+framework module YHLWebViewController {
+  umbrella header "YHLWebViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
